@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Work - Melvin Hill</title>
+<link rel="stylesheet" href="globalstylesheet.css">
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body style="background-color:aqua;">
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		
+	</script>
+	<table>
+		<tr>
+			<th><img src="./assets/programming-svgrepo-com.svg" alt="Melvin Hill Logo" style="width:260px;height:153px;"></th>
+			<th>
+					<p class="busCard">
+						&#9733; Melvin Hill <br>
+						&#9733; Software Engineer <br>
+						&#9733; <a href="https://www.linkedin.com/in/melvinhillengineer" target="_blank">LinkedIn Profile</a> <br>
+						&#9733; <a href="mailto:melvinhill.861@gmail.com" target="_blank">Email Me</a>
+						
+					</p>
+                 	
+                </th>
+		</tr>
+	</table>
+	<div class="topnav" id="myTopnav">
+  			<a href="https://hermes.waketech.edu/~mhill18/index.html"  id="Home" onclick="tabHome(this.id);">Home</a>
+			<a href="https://hermes.waketech.edu/~mhill18/mywork.html"  class="active" id="MyWork" onclick="tabMyWork(this.id);">My Work</a>
+  			<a href="https://hermes.waketech.edu/~mhill18/aboutme.html"   id="AboutMe" onclick="tabAboutMe(this.id);">About Me</a>
+  			<a href="https://hermes.waketech.edu/~mhill18/contactme.html" id="Contact" onclick="tabContactMe(this.id);" >Contact Me</a>
+  			<a href="javascript:void(0);" class="icon" onclick="myFunction();">
+    			<i class="fa fa-bars"></i>
+  			</a>
+	</div>
+	<img src="./assets/comingsoon.jpeg" style="width:100%" alt="Coming Soon">
+	<div class="copyright">
+		<p>Copyright &copy; <script> document.write(new Date().getFullYear())</script> Melvin Hill All Rights Reserved</p>
+	</div>
+</body>
+</html>

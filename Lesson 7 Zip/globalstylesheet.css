@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+	color: blue;
+}
+
+h2 {
+	color: darkgray;
+}
+
+p {
+	color: black;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+.center {
+	text-align: center;
+}
+
